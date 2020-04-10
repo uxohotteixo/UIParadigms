@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UIParadigms.Modules.Parsers\UIParadigms.Modules.Parser.csproj" />
+    <ProjectReference Include="..\UIParadigms.Modules.Proxy\UIParadigms.Modules.Proxy.csproj" />
+  </ItemGroup>
+
+</Project>
