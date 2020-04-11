@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UIParadigms.Apps", "UIParad
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UIParadigms.Modules", "UIParadigms.Modules", "{D59473CB-D4DD-4946-BD8E-B5294401F9D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIParadigms.Apps.Web", "UIParadigms.Apps.Web\UIParadigms.Apps.Web.csproj", "{F1D37E94-D601-4B4A-8910-3536E4227411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{742EF624-16A9-4E0F-8970-F49E577F5A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{742EF624-16A9-4E0F-8970-F49E577F5A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{742EF624-16A9-4E0F-8970-F49E577F5A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D37E94-D601-4B4A-8910-3536E4227411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D37E94-D601-4B4A-8910-3536E4227411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D37E94-D601-4B4A-8910-3536E4227411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D37E94-D601-4B4A-8910-3536E4227411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{2E17078B-2006-4D62-B781-CAB8B089178D} = {D59473CB-D4DD-4946-BD8E-B5294401F9D7}
 		{4770A18E-2032-49B1-8C0F-5CA071DE9775} = {D59473CB-D4DD-4946-BD8E-B5294401F9D7}
 		{742EF624-16A9-4E0F-8970-F49E577F5A6D} = {D59473CB-D4DD-4946-BD8E-B5294401F9D7}
+		{F1D37E94-D601-4B4A-8910-3536E4227411} = {D717FE68-E58C-41AA-A2C7-66BC4BC60629}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B459630-92A6-4683-8358-394005115D27}
