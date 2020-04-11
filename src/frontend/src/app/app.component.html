@@ -1,0 +1,30 @@
+<mat-tab-group>
+  <mat-tab label="Вывод">
+    <app-show (resultChange)="change($event)">
+
+    </app-show>
+  </mat-tab>
+  <mat-tab label="Открыть">
+    <app-open (resultChange)="change($event)">
+
+    </app-open>
+  </mat-tab>
+  <mat-tab label="Создать">
+    <app-create (resultChange)="change($event)">
+
+    </app-create>
+  </mat-tab>
+  <mat-tab label="Переместиться">
+    <app-move (resultChange)="change($event)">
+
+    </app-move>
+  </mat-tab>
+  <mat-tab label="Удалить">
+    <app-remove (resultChange)="change($event)">
+
+    </app-remove>
+  </mat-tab>
+</mat-tab-group>
+<pre>
+  {{result}}
+</pre>

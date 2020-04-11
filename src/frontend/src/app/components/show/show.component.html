@@ -1,0 +1,8 @@
+<form>
+  <mat-form-field>
+    <mat-label>Директория</mat-label>
+    <input matInput name="textInput" placeholder="Введите директорию" [(ngModel)]="textInput">
+  </mat-form-field>
+  <mat-checkbox [(ngModel)]="checkBoxInput" name="checkBoxInput">Рекурсивно</mat-checkbox>
+</form>
+<button mat-button color="primary" (click)="show()">Показать</button>
